@@ -1,28 +1,10 @@
 # ResearchProject
 This is an informal text mining research project, mainly for practice
 
-Aim: 
-To identify the frequently used words in a particular keyword. 
-To identify the relation between the keywords using the word usage  
+Cleaning the data:  
 
+Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly formatted, duplicate, or incomplete data within a dataset. We need to clean the data depending on our work.   In our case, we need to remove words like RT, Tweet, numerical values, dates, #, urls, <, > etc. We need to remove the verbs too. We need to see the data and plan the cleaning process.  
 
-Please follow the below instructions carefully.
+We need to sort them and take the top 25 or 50 frequently used words. 
 
-STEP 1: 
-1.	The data belongs to two months. 
-2.	Each file contains the tweets collected on that day. 
-3.	Each day file needs to be cleaned.  Only one day data of a particular tweet should be in one file.  
-4.	Keep file name with date and tweet keyword. 
-5.	Remove stop words and clean the data. 
-6.	Compute Term Document Matrix (TDM) with the words used by each keyword and each day.  
-7.	Consider the frequently used 25 or 50 words from each day tweet.  
-8.	Prepare a excel sheet with date as column and frequently used words as rows. 
-9.	Find the correlation coefficient between the words of a particular keyword. 
-
-Please let me know when you done with step 1. 
-
-
-
-STEP 2: 
-1.	Once STEP 1 is completed, we can address the correlation between the keywords too. 
-2.	Learn some Machine learning Algorithms
+We can use correlation coefficient formula (from any standard statistics books) on these numbers.  
